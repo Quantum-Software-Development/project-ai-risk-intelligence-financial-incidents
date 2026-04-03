@@ -168,7 +168,7 @@
 The financial sector has rapidly adopted AI systems across areas such as credit scoring, fraud detection, algorithmic trading, customer service, and process automation. While these technologies generate significant value, they also introduce new forms of operational risk, algorithmic bias, and regulatory exposure, including fines, investigations, and reputational damage.
 
 
-This project analyzes documented incidents involving Artificial Intelligence (AI) in financial services, with a focus on algorithmic bias, operational risk, and governance responses in banks and fintechs. The analysis is based on data from the AI Incident Database (AIID), accessed via Kaggle or the official platform (https://incidentdatabase.ai). Following the CRISP-DM methodology, the project combines structured data analysis, statistical techniques, and simple predictive models to generate insights that support risk management and AI governance in the financial sector.
+This project analyzes documented incidents involving Artificial Intelligence (AI) in financial services, with a focus on algorithmic bias, operational risk, and governance responses in banks and fintechs. The analysis is based on data from the AI Incident Database (AIID), accessed via [Kaggle](https://www.kaggle.com/datasets/konradb/ai-incident-database) or the [official platform](https://incidentdatabase.ai). Following the CRISP-DM methodology, the project combines structured data analysis, statistical techniques, and simple predictive models to generate insights that support risk management and AI governance in the financial sector.
 
 
 
