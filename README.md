@@ -162,7 +162,7 @@
 ## 1. [Project Overview]()
 
 
-### [1.1]()- Business Context
+### [1.1]()- ***Business Context***
 
 
 The financial sector has rapidly adopted AI systems across areas such as credit scoring, fraud detection, algorithmic trading, customer service, and process automation. While these technologies generate significant value, they also introduce new forms of operational risk, algorithmic bias, and regulatory exposure, including fines, investigations, and reputational damage.
