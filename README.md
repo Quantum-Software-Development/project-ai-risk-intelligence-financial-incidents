@@ -14,7 +14,9 @@
 
 <!-- ========= START REPO TITLE ========= -->
 # <p align="center"> 🔐 [Cybersecurity, Social Engineering and AI Security]()  / [Project 4 – AI Finance Incident Risk & Governance Analysis ]() - 
-### <p align="center"> Algorithmic Bias • Operational Risk • AI Governance in Financial Services 
+### <p align="center"> Analysis of Algorithmic Bias • Operational Risk • AI Governance Responses in Financial Services 
+
+
 
 <br><br>
 <!-- ========= START REPO TITLE ========= -->
@@ -79,17 +81,20 @@
 
 
 ## Table of Contents
+
 1. [Project Overview](#project-overview)  
    1.1 [Business Context](#business-context)  
    1.2 [General Objective](#general-objective)  
    1.3 [Specific Objectives](#specific-objectives)  
    1.4 [Research Questions](#research-questions)
 
+
 2. [Data and Problem Definition](#data-and-problem-definition)  
    2.1 [Source Data: AI Incident Database (AIID)](#source-data-ai-incident-database-aiid)  
    2.2 [Scope: Financial Services Subset](#scope-financial-services-subset)  
    2.3 [Key Raw Variables](#key-raw-variables)  
    2.4 [Core Analytical Concepts and Definitions](#core-analytical-concepts-and-definitions)
+
 
 3. [Derived Variables and Data Model](#derived-variables-and-data-model)  
    3.1 [Financial Application Type](#financial-application-type)  
@@ -100,6 +105,7 @@
    3.6 [Temporal and Geographic Dimensions](#temporal-and-geographic-dimensions)  
    3.7 [Relational Data Model (SQLite)](#relational-data-model-sqlite)
 
+
 4. [Exploratory Analysis and Statistical Hypotheses](#exploratory-analysis-and-statistical-hypotheses)  
    4.1 [Descriptive Questions](#descriptive-questions)  
    4.2 [Hypothesis 1 – Concentration by Application Type](#hypothesis-1--concentration-by-application-type)  
@@ -107,17 +113,20 @@
    4.4 [Hypothesis 3 – Severity and Regulatory Response](#hypothesis-3--severity-and-regulatory-response)  
    4.5 [Hypothesis 4 – Temporal Trends and Regulation](#hypothesis-4--temporal-trends-and-regulation)
 
+
 5. [Machine Learning and Statistical Techniques](#machine-learning-and-statistical-techniques)  
    5.1 [Predictive Models](#predictive-models)  
    5.2 [Text Mining and NLP](#text-mining-and-nlp)  
    5.3 [Statistical Methods](#statistical-methods)  
    5.4 [Visual Analytics](#visual-analytics)
 
+
 6. [Project Structure and Notebooks](#project-structure-and-notebooks)  
    6.1 [Phase 1 – Exploratory & Data Preparation](#phase-1--exploratory--data-preparation)  
    6.2 [Phase 2 – Statistical Analysis & Hypothesis Testing](#phase-2--statistical-analysis--hypothesis-testing)  
    6.3 [Phase 3 – Predictive Modeling & REST API](#phase-3--predictive-modeling--rest-api)  
    6.4 [Final Consolidated Pipeline Notebook](#final-consolidated-pipeline-notebook)
+
 
 7. [CRISP‑DM Methodology Alignment](#crisp-dm-methodology-alignment)  
    7.1 [Business Understanding](#business-understanding)  
@@ -127,18 +136,41 @@
    7.5 [Evaluation](#evaluation)  
    7.6 [Deployment](#deployment)
 
+
 8. [How to Run](#how-to-run)  
    8.1 [Repository and Environment](#repository-and-environment)  
    8.2 [Notebook Execution Order](#notebook-execution-order)  
    8.3 [Starting the API](#starting-the-api)
 
+
 9. [Dataset Access](#dataset-access)  
+
 
 10. [Author](#author)  
 
+
 11. [Topics](#topics)  
 
+
 12. [Final Note](#final-note)
+
+
+
+<br><br>
+
+
+## 1. [Project Overview]()
+
+
+### [1.1]()- Business Context
+
+
+The financial sector has rapidly adopted AI systems across areas such as credit scoring, fraud detection, algorithmic trading, customer service, and process automation. While these technologies generate significant value, they also introduce new forms of operational risk, algorithmic bias, and regulatory exposure, including fines, investigations, and reputational damage.
+
+
+This project analyzes documented incidents involving Artificial Intelligence (AI) in financial services, with a focus on algorithmic bias, operational risk, and governance responses in banks and fintechs. The analysis is based on data from the AI Incident Database (AIID), accessed via Kaggle or the official platform (https://incidentdatabase.ai). Following the CRISP-DM methodology, the project combines structured data analysis, statistical techniques, and simple predictive models to generate insights that support risk management and AI governance in the financial sector.
+
+
 
 <br><br>
 
