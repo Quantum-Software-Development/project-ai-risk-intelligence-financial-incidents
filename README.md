@@ -78,11 +78,32 @@
 >
 >
 
-<br><br> <br><br>
+<br><br> 
+
+#
+
+<br><br>
 <!-- ========= END Confidentiality statement  ========= -->
 
-<!-- ======================================= END DEFAULT HEADER ⚡️ ===========================================  -->
 
+
+<!-- ========= START Main Repo REFERENCE  ========= -->
+> [!TIP]
+>
+> This repository is part of the flagship project:
+> **🔐 Cybersecurity, Social Engineering & AI Security — Main Hub**
+>
+> Explore the complete ecosystem of materials, analyses, and notebooks in the central repository:
+>
+> * 🔗 **[Cybersecurity, Social Engineering & AI Security — Main Hub Repository](https://github.com/Quantum-Software-Development/1-Cybersecurity-SocialEngineering_Main_Hub_Repository-PUCSP)**
+>
+> *Part of the **Humanistic AI Research & Data Modeling Series** — where data meets human insight.*
+
+<br><br><br><br>
+<!-- ========= END Main Repo REFERENCE  ========= -->
+
+
+<!-- ======================================= END DEFAULT HEADER ⚡️ ===========================================  -->
 
 
 
