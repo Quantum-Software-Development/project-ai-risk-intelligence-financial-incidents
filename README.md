@@ -47,7 +47,7 @@
   <img src="https://img.shields.io/badge/API-REST-00A676" />
   <img src="https://img.shields.io/badge/Security-Zero%20Trust-008B8B" />
   <img src="https://img.shields.io/badge/Machine%20Learning-AI-20B2AA" />
-  <img src="https://img.shields.io/badge/Data-Bloomberg%20Lab-00CED1" />
+  <img src="https://img.shields.io/badge/Data-SQL-LIGHT-00CED1" />
 </p>
 
 
