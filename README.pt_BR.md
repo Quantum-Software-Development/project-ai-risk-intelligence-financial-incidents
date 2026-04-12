@@ -16,37 +16,47 @@ Análise de Viés Algorítmico, Risco Operacional e Governança de IA em Serviç
 
 ## Table of Contents
 
-1. Visão Geral do Projeto
-1.1 Contexto de Negócio
-1.2 Objetivo Geral
-1.3 Objetivos Específicos
-1.4 Perguntas de Pesquisa
-2. Dados e Definição do Problema
-2.1 Fonte de Dados: AI Incident Database (AIID)
-2.2 Escopo: Recorte de Serviços Financeiros
-2.3 Variáveis Brutas Principais
-2.4 Conceitos Analíticos Centrais
-3. Variáveis Derivadas e Modelo de Dados
-3.1 Tipo de Aplicação Financeira (application_type)
-3.2 Tipo de Incidente (incident_type)
-3.3 Segmento de Cliente (customer_segment)
-3.4 Nível de Severidade (severity_level)
-3.5 Atributos Complementares
-4. Estrutura do Projeto e Notebooks
-4.1 Notebook 1 – Preparação de Dados
-4.2 Notebook 2 – Análise Exploratória
-4.3 Notebook 3 – Feature Engineering e Base Analítica
-4.4 Notebook 4 – Consolidação e Reporting
-5. Alinhamento com CRISP‑DM
-6. Como Executar
-7. Código dos Notebooks (com indicação de gráficos)
-7.1 Notebook 1 – Data Preparation
-7.2 Notebook 2 – Exploratory Analysis
-7.3 Notebook 3 – Feature Engineering
-7.4 Notebook 4 – Consolidation and Reporting
-8. Próximos Passos e Extensões Possíveis
-9. Autor e Contexto
-10. Tópicos (Tags)
+1. [Project Overview](#project-overview)  
+   1.1 [Business Context](#business-context)  
+   1.2 [General Objective](#general-objective)  
+   1.3 [Specific Objectives](#specific-objectives)  
+   1.4 [Research Questions](#research-questions)  
+
+2. [Data and Problem Definition](#data-and-problem-definition)  
+   2.1 [Data Source: AI Incident Database (AIID)](#data-source-ai-incident-database-aiid)  
+   2.2 [Scope: Financial Services Focus](#scope-financial-services-focus)  
+   2.3 [Key Raw Variables](#key-raw-variables)  
+   2.4 [Core Analytical Concepts](#core-analytical-concepts)  
+
+3. [Derived Variables and Data Model](#derived-variables-and-data-model)  
+   3.1 [Financial Application Type (application_type)](#financial-application-type-application_type)  
+   3.2 [Incident Type (incident_type)](#incident-type-incident_type)  
+   3.3 [Customer Segment (customer_segment)](#customer-segment-customer_segment)  
+   3.4 [Severity Level (severity_level)](#severity-level-severity_level)  
+   3.5 [Additional Attributes](#additional-attributes)  
+
+4. [Project Structure and Notebooks](#project-structure-and-notebooks)  
+   4.1 [Notebook 1 – Data Preparation](#notebook-1--data-preparation)  
+   4.2 [Notebook 2 – Exploratory Analysis](#notebook-2--exploratory-analysis)  
+   4.3 [Notebook 3 – Feature Engineering and Analytical Base](#notebook-3--feature-engineering-and-analytical-base)  
+   4.4 [Notebook 4 – Consolidation and Reporting](#notebook-4--consolidation-and-reporting)  
+
+5. [CRISP-DM Alignment](#crisp-dm-alignment)  
+
+6. [How to Run](#how-to-run)  
+
+7. [Notebook Code (with Graph References)](#notebook-code-with-graph-references)  
+   7.1 [Notebook 1 – Data Preparation](#notebook-1--data-preparation-1)  
+   7.2 [Notebook 2 – Exploratory Analysis](#notebook-2--exploratory-analysis-1)  
+   7.3 [Notebook 3 – Feature Engineering](#notebook-3--feature-engineering-1)  
+   7.4 [Notebook 4 – Consolidation and Reporting](#notebook-4--consolidation-and-reporting-1)  
+
+8. [Next Steps and Possible Extensions](#next-steps-and-possible-extensions)  
+
+9. [Author and Context](#author-and-context)  
+
+10. [Topics (Tags)](#topics-tags)
+
 
 <br><br>
 
