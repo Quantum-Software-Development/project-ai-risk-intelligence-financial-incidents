@@ -179,8 +179,71 @@ Dado um conjunto de incidentes de IA registrados em múltiplos setores e filtrad
 <br><br>
 
 
+# Sistema de Inteligência de Incidentes Financeiros com IA  
+## Arquitetura do Sistema (Design MLOps)
 
+<br>
 
+```mermaid
+flowchart TB
+
+subgraph FONTES_DE_DADOS
+    A1[Dataset Kaggle - Incidentes Financeiros]
+    A2[APIs Externas - Base de Incidentes]
+end
+
+subgraph CAMADA_DE_DADOS
+    B1[Armazenamento de Dados Brutos]
+    B2[Pipeline de Limpeza de Dados]
+    B3[Dataset Processado]
+end
+
+subgraph ENGENHARIA_DE_FEATURES
+    C1[Extração de Features]
+    C2[Transformação e Codificação]
+    C3[Feature Store Versionada]
+end
+
+subgraph PIPELINE_DE_ML
+    D1[Treinamento de Modelos]
+    D2[Avaliação de Modelos]
+    D3[Registro de Modelos]
+end
+
+subgraph ARMAZENAMENTO
+    E1[(Banco de Dados SQLite)]
+    E2[(Modelos Serializados)]
+end
+
+subgraph APLICACAO
+    F1[API REST - FastAPI / Flask]
+    F2[Dashboard Streamlit]
+end
+
+A1 --> B1
+A2 --> B1
+
+B1 --> B2 --> B3
+B3 --> C1 --> C2 --> C3
+C3 --> D1 --> D2 --> D3
+
+D3 --> E2
+B3 --> E1
+
+E2 --> F1
+E1 --> F1
+
+F1 --> F2
+
+%% =========================
+%% ESTILO TURQUESA (COMPATÍVEL GITHUB)
+%% =========================
+
+classDef default fill:#0d1117,stroke:#00d1c1,stroke-width:1px,color:#ffffff;
+classDef grupo fill:#0d1117,stroke:#00d1c1,stroke-width:2px,color:#ffffff;
+
+class FONTES_DE_DADOS,CAMADA_DE_DADOS,ENGENHARIA_DE_FEATURES,PIPELINE_DE_ML,ARMAZENAMENTO,APLICACAO grupo;
+```
 
 
 
