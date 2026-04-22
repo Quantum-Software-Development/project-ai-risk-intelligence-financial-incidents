@@ -206,91 +206,53 @@ In addition, the project adopts the perspective of a boutique consulting firm sp
 <br><br>
 
 
-## AI Financial Incident Intelligence System
+# AI Financial Incident Intelligence System  
+## System Architecture (MLOps Design)
+
 
 <br>
 
-###  Architecture (MLOps-Ready)
-
 ```mermaid
-%%{init: {
-  "theme": "base",
-  "themeVariables": {
-    "background": "#0d1117",
-    "primaryColor": "#0d1117",
-    "primaryTextColor": "#ffffff",
-    "primaryBorderColor": "#00d1c1",
-    "lineColor": "#00d1c1",
-    "secondaryColor": "#161b22",
-    "tertiaryColor": "#0d1117",
-    "fontFamily": "Inter, Arial"
-  }
-}}%%
-
 flowchart TB
 
-%% =========================
-%% DATA SOURCES
-%% =========================
-subgraph DS["📥 DATA SOURCES"]
-    A1[Kaggle Dataset<br/>Financial Incidents]
-    A2[External APIs<br/>AI Incident Database]
+subgraph DATA_SOURCES
+    A1[Kaggle Dataset - Financial Incidents]
+    A2[External APIs - Incident Database]
 end
 
-%% =========================
-%% DATA LAYER
-%% =========================
-subgraph DL["📊 DATA LAYER"]
+subgraph DATA_LAYER
     B1[Raw Data Storage]
     B2[Data Cleaning Pipeline]
     B3[Processed Dataset]
 end
 
-%% =========================
-%% FEATURE ENGINEERING
-%% =========================
-subgraph FE["⚙️ FEATURE ENGINEERING"]
+subgraph FEATURE_ENGINEERING
     C1[Feature Extraction]
-    C2[Encoding & Transformation]
-    C3[Feature Store (Versioned)]
+    C2[Data Transformation]
+    C3[Feature Store]
 end
 
-%% =========================
-%% MACHINE LEARNING LAYER
-%% =========================
-subgraph ML["🤖 MACHINE LEARNING LAYER"]
-    D1[Model Training Pipeline]
+subgraph ML_PIPELINE
+    D1[Model Training]
     D2[Model Evaluation]
-    D3[Model Registry (Versioned)]
+    D3[Model Registry]
 end
 
-%% =========================
-%% STORAGE LAYER
-%% =========================
-subgraph ST["🗄️ STORAGE LAYER"]
+subgraph STORAGE
     E1[(SQLite Database)]
-    E2[(Serialized Models .pkl)]
+    E2[(Serialized Models)]
 end
 
-%% =========================
-%% APPLICATION LAYER
-%% =========================
-subgraph AP["🚀 APPLICATION LAYER"]
-    F1[REST API Service<br/>FastAPI / Flask]
+subgraph APPLICATION
+    F1[REST API - FastAPI / Flask]
     F2[Streamlit Dashboard]
 end
-
-%% =========================
-%% FLOW
-%% =========================
 
 A1 --> B1
 A2 --> B1
 
 B1 --> B2 --> B3
-
 B3 --> C1 --> C2 --> C3
-
 C3 --> D1 --> D2 --> D3
 
 D3 --> E2
@@ -302,20 +264,16 @@ E1 --> F1
 F1 --> F2
 
 %% =========================
-%% STYLING (DARK + TURQUOISE)
+%% TURQUOISE STYLING (GitHub-safe)
 %% =========================
 
 classDef default fill:#0d1117,stroke:#00d1c1,stroke-width:1px,color:#ffffff;
-classDef group fill:#161b22,stroke:#00d1c1,stroke-width:1px,color:#ffffff;
+classDef group fill:#0d1117,stroke:#00d1c1,stroke-width:2px,color:#ffffff;
 
-class DS,DL,FE,ML,ST,AP group;
+class DATA_SOURCES,DATA_LAYER,FEATURE_ENGINEERING,ML_PIPELINE,STORAGE,APPLICATION group;
 ```
 
 <br><br>
-
-
-
-
 
 
 
