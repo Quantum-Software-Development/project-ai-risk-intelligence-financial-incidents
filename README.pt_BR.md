@@ -106,14 +106,11 @@
 
 
 
-
-
-
 <br><br>
 
 ## Table of Contents
 
- 1. [Introdução](#1-introdução)
+1. [Introdução](#1-introdução)
 2. [Objetivos e Questões de Pesquisa](#2-objetivos-e-questões-de-pesquisa)
 3. [Fundamentação e Contexto de Dados](#3-fundamentação-e-contexto-de-dados)
 4. [Metodologia — CRISP-DM](#4-metodologia--crisp-dm)
