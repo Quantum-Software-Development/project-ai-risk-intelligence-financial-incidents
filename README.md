@@ -185,9 +185,6 @@ Given a dataset of AI-related incidents filtered for the financial sector, this 
 
 
 
-
-
-
 <br><br>
 
 
@@ -198,128 +195,30 @@ Given a dataset of AI-related incidents filtered for the financial sector, this 
 
 ```mermaid
 %%{init: {'theme':'dark'}}%%
-flowchart TB
+flowchart LR
 
-subgraph DATA_SOURCE["DATA SOURCE"]
-    A1["AI Incident Database (AIID)"]
-    A2["Kaggle / Cache Local"]
-end
+A["AIID / Kaggle"] --> B["Prep (NB1)"]
+B --> C["CSV Clean"]
 
-subgraph PREP["DATA PREP & ENRICHMENT"]
-    B1["Notebook 1 - Exploracao & Preparacao"]
-    B2["CSV Tratado (incidents_finance_filtered.csv)"]
-end
+C --> D["Stats (NB2)"]
+C --> E["ML (NB3)"]
 
-subgraph ANALYTICS["ANALYTICS & ML"]
-    C1["Notebook 2 - Estatistica & Testes H1-H4"]
-    C2["Notebook 3 - Modelagem Supervisionada"]
-end
+C --> F[("SQLite")]
+E --> G[("Models .pkl")]
 
-subgraph PERSISTENCE["PERSISTENCE"]
-    D1[("SQLite - ai_finance_incidents.db")]
-    D2[("Modelos Serializados (*.pkl)")]
-end
+F --> H["API (Flask)"]
+G --> H
 
-subgraph SERVICE["API & DASHBOARD"]
-    E1["Notebook 4 - Flask API (app_api.py)"]
-    E2["Streamlit Dashboard (dashboard/app.py)"]
-end
+H --> I["Dashboard (Streamlit)"]
 
-%% FLOW
+%% STYLE TURQUOISE
 
-A1 --> B1
-A2 --> B1
+classDef node fill:#0d1117,stroke:#00d1c1,stroke-width:1px,color:#ffffff;
+classDef db fill:#0d1117,stroke:#00d1c1,stroke-width:2px,color:#ffffff;
 
-B1 --> B2
-B2 --> C1
-B2 --> C2
-
-B2 --> D1
-C2 --> D2
-
-D1 --> E1
-D2 --> E1
-
-E1 --> E2
-
-%% STYLE
-
-classDef default fill:#0d1117,stroke:#00d1c1,color:#ffffff;
-classDef group fill:#0d1117,stroke:#00d1c1,stroke-width:2px,color:#ffffff;
-
-class DATA_SOURCE,PREP,ANALYTICS,PERSISTENCE,SERVICE group;
+class A,B,C,D,E,H,I node;
+class F,G db;
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-```mermaid
-%%{init: {'theme':'dark'}}%%
-flowchart TB
-
-subgraph DATA_SOURCE["DATA SOURCE"]
-    A1["AI Incident Database (AIID)"]
-    A2["Kaggle / Cache Local"]
-end
-
-subgraph PREP["DATA PREP & ENRICHMENT"]
-    B1["Notebook 1 - Exploracao & Preparacao"]
-    B2["CSV Tratado (incidents_finance_filtered.csv)"]
-end
-
-subgraph ANALYTICS["ANALYTICS & ML"]
-    C1["Notebook 2 - Estatistica & Testes H1-H4"]
-    C2["Notebook 3 - Modelagem Supervisionada"]
-end
-
-subgraph PERSISTENCE["PERSISTENCE"]
-    D1[("SQLite - ai_finance_incidents.db")]
-    D2[("Modelos Serializados (*.pkl)")]
-end
-
-subgraph SERVICE["API & DASHBOARD"]
-    E1["Notebook 4 - Flask API (app_api.py)"]
-    E2["Streamlit Dashboard (dashboard/app.py)"]
-end
-
-%% FLOW
-
-A1 --> B1
-A2 --> B1
-
-B1 --> B2
-B2 --> C1
-B2 --> C2
-
-B2 --> D1
-C2 --> D2
-
-D1 --> E1
-D2 --> E1
-
-E1 --> E2
-
-%% STYLE
-
-classDef default fill:#0d1117,stroke:#00d1c1,color:#ffffff;
-classDef group fill:#0d1117,stroke:#00d1c1,stroke-width:2px,color:#ffffff;
-
-class DATA_SOURCE,PREP,ANALYTICS,PERSISTENCE,SERVICE group;
-```
-
-
-
-
-
 
 
 
