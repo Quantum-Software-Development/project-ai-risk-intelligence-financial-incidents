@@ -17,7 +17,7 @@
 ### <p align="center"> Uma Análise de Viés Algorítmico, Risco Operacional e Governança para Conformidade Regulatória
 
 
-<br><br>
+<br><br><br><br>
 <!-- ========= END REPO TITLE ========= -->
 
 
@@ -60,16 +60,7 @@
 
 <!-- ========= START BADGES ========= -->
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-Data%20Science-0fb9b1?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Streamlit-Dashboard-14b8a6?logo=streamlit&logoColor=white" />
-  <img src="https://img.shields.io/badge/API-REST-0ea5a4?logo=flask&logoColor=white" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-AI-2dd4bf" />
-  <img src="https://img.shields.io/badge/Database-SQL-5eead4?logo=postgresql&logoColor=black" />
-</p>
 
-<br><br>
-<!-- ========= END START BADGES ========= -->
 
 
 
@@ -145,22 +136,25 @@ A principal contribuição está menos em um modelo “pronto para produção”
 
 ## Table of Contents
 
-1. [Introdução](#1-introdução)
-2. [Objetivos e Questões de Pesquisa](#2-objetivos-e-questões-de-pesquisa)
-3. [Fundamentação e Contexto de Dados](#3-fundamentação-e-contexto-de-dados)
-4. [Metodologia — CRISP-DM](#4-metodologia--crisp-dm)
-5. [Dados Utilizados e Preparação](#5-dados-utilizados-e-preparação)
-6. [Variáveis Analíticas e Hipóteses](#6-variáveis-analíticas-e-hipóteses)
-7. [Técnicas Estatísticas e de IA/ML](#7-técnicas-estatísticas-e-de-iaml)
-8. [Estrutura Técnica — 5 Notebooks](#8-estrutura-técnica--5-notebooks)
-9. [Banco de Dados Relacional e API RESTful](#9-banco-de-dados-relacional-e-api-restful)
-10. [Resultados Obtidos](#10-resultados-obtidos)
-11. [Cronograma, Entregáveis e Alinhamento ao Briefing](#11-cronograma-entregáveis-e-alinhamento-ao-briefing)
-12. [Guia de Instalação e Execução](#12-guia-de-instalação-e-execução)
-13. [Estrutura de Arquivos do Projeto](#13-estrutura-de-arquivos-do-projeto)
-14. [Limitações, Riscos e Cuidados Metodológicos](#14-limitações-riscos-e-cuidados-metodológicos)
-15. [Considerações Finais e Próximos Passos](#15-considerações-finais-e-próximos-passos)
-16. [Referências](#16-referências)
+1. [Introdução](#1-introdução)  
+2. [Objetivos e Questões de Pesquisa](#2-objetivos-e-questões-de-pesquisa)  
+3. [Fundamentação e Contexto dos Dados](#3-fundamentação-e-contexto-dos-dados)  
+4. [Metodologia CRISP-DM](#4-metodologia-crisp-dm)  
+5. [Dados Utilizados e Preparação](#5-dados-utilizados-e-preparação)  
+6. [Variáveis Analíticas e Hipóteses](#6-variáveis-analíticas-e-hipóteses)  
+7. [Análise Estatística e Resultados Inferenciais](#7-análise-estatística-e-resultados-inferenciais)  
+8. [Modelagem de Machine Learning](#8-modelagem-de-machine-learning)  
+9. [Banco de Dados Relacional e API RESTful](#9-banco-de-dados-relacional-e-api-restful)  
+10. [Dashboard Interativo](#10-dashboard-interativo)  
+11. [Arquitetura do Projeto](#11-arquitetura-do-projeto)  
+12. [Estrutura Técnica dos Notebooks](#12-estrutura-técnica-dos-notebooks)  
+13. [Resultados Consolidados](#13-resultados-consolidados)  
+14. [Limitações, Riscos e Cuidados Metodológicos](#14-limitações-riscos-e-cuidados-metodológicos)  
+15. [Guia de Execução](#15-guia-de-execução)  
+16. [Estrutura de Arquivos](#16-estrutura-de-arquivos)  
+17. [Dependências](#17-dependências)  
+18. [Conclusões e Próximos Passos](#18-conclusões-e-próximos-passos)  
+19. [Referências](#19-referências)
 
 
 <br><br>
