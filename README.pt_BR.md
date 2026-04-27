@@ -22,16 +22,17 @@
 
 
 <!-- ========= START Institucional INFO ========= -->
-## [Cybersecurity and Social Engineering Integrated Project - PUC-SP 5th Semester (2026)]()
+
 
 
 <br>
 
-[**Institution:**]() Pontifical Catholic University of São Paulo (PUC‑SP – Humanistic AI & Data Science • 5º Semester • 2026)  <br>
-[**School:**]() FACEI – Faculty of Interdisciplinary Studies  <br>
-[**Course Repo:**]() INTEGRATED PROJECT: Cybersecurity and Social Engineering – 108 Hours  <br>
-**Professor:** [✨ Eduardo Savino Gomes]()  <br>
-[**Extensionist Activities:**]() Extension projects and workshops using open‑source software and data‑driven consulting to support the community, aligned with the 20 official extension hours of the course.
+[**Projeto Integrador — 5º Semestre | PUC-SP**]()
+[**Institution:**]() Pontifical Catholic University of São Paulo  – Humanistic AI & Data Science 
+[**Disciplina**:]()  Segurança Cibernética e Engenharia Social · Sistemas Distribuídos e Aprendizagem de Máquina  
+[**Course Repo:**]() INTEGRATED PROJECT: Cybersecurity and Social Engineering
+[**Metodologia**:]()  CRISP-DM · **Fonte de Dados**: AI Incident Database (AIID)
+[**Professor:**]()  [✨ Eduardo Savino Gomes]()
 
 <br><br>
 
@@ -39,6 +40,27 @@
 
 <br><br>
 <!-- ========= END Institucional INFO ========= -->
+
+
+
+##  [Visão executiva]()
+
+Este projeto consolida uma visão ponta a ponta sobre incidentes de IA em serviços financeiros, conectando dados públicos do AI Incident Database (AIID) a um pipeline completo de análise, modelagem e exposição via API e dashboard. Do ponto de vista executivo, o trabalho mostra como incidentes dispersos podem ser transformados em indicadores estruturados de risco, com foco em viés algorítmico, risco operacional e respostas de governança, consumidos por um dashboard interativo que lê diretamente a API.
+
+A solução é organizada segundo o referencial **CRISP‑DM**, tratado aqui como modelo de projeto de negócio baseado em dados: partimos de *Business Understanding* (problema, escopo financeiro e questões de risco/compliance), passamos por *Data Understanding* e *Data Preparation* (construção da base temática de incidentes), avançamos para *Modeling* e *Evaluation* (modelos supervisionados e testes de hipóteses) e chegamos ao *Deployment* em uma arquitetura com banco relacional, API RESTful e camada de apresentação.
+
+Além da camada analítica tradicional, o projeto foi desenhado para incorporar uma interface conversacional integrada a modelos da OpenAI/ChatGPT, permitindo que usuários não técnicos interajam com os resultados por meio de linguagem natural, façam perguntas sobre os incidentes e explorem os dados sem precisar conhecer detalhes de SQL, estatística ou machine learning.
+
+A principal contribuição está menos em um modelo “pronto para produção” e mais na arquitetura analítica integrada: da aquisição dos dados à disponibilização de endpoints RESTful e de uma camada de visualização e interação, respeitando limitações da base e deixando claro que, nas condições atuais, os modelos devem ser tratados como prova de conceito, não como ferramenta decisória final.
+
+
+
+<br><br>
+
+#
+
+<br><br>
+
 
 <!-- ========= START BADGES ========= -->
 
