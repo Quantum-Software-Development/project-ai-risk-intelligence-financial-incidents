@@ -96,8 +96,8 @@
   <img src="https://img.shields.io/badge/API-REST-0ea5a4?logo=flask&logoColor=white" />
   <img src="https://img.shields.io/badge/Machine%20Learning-AI-2dd4bf" />
   <img src="https://img.shields.io/badge/Database-SQL-5eead4?logo=postgresql&logoColor=black" />
+  <img src="https://img.shields.io/badge/Render-Cloud%20Deploy-22c7b8?logo=render&logoColor=white" />
 </p>
-
 
 <br><br>
 
