@@ -132,8 +132,8 @@ From an executive perspective, the work demonstrates how dispersed incidents can
 
 The system answers questions such as:
 
-[-]() Which types of AI applications generate the most incidents in the financial sector?
-[-]() Does algorithmic bias affect customer segments unequally?
+[-]() Which types of AI applications generate the most incidents in the financial sector? <br>
+[-]() Does algorithmic bias affect customer segments unequally? <br>
 [-]() Is it possible to predict the severity of an incident before a regulatory investigation?
 
 <br><br>
