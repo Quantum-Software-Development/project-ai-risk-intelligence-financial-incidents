@@ -196,28 +196,29 @@ The system answers questions such as:
 
 ## Table of Contents
 
-
 1. [Introduction](#1-introduction)
 2. [Objectives and Research Questions](#2-objectives-and-research-questions)
-3. [Foundations and Data Context](#3-foundations-and-data-context)
+3. [Data Background and Context](#3-data-background-and-context)
 4. [CRISP-DM Methodology](#4-crisp-dm-methodology)
-5. [Data Used and Preparation](#5-data-used-and-preparation)
+5. [Data Sources and Preparation](#5-data-sources-and-preparation)
 6. [Analytical Variables and Hypotheses](#6-analytical-variables-and-hypotheses)
 7. [Statistical Analysis and Inferential Results](#7-statistical-analysis-and-inferential-results)
 8. [Machine Learning Modeling](#8-machine-learning-modeling)
 9. [Relational Database and RESTful API](#9-relational-database-and-restful-api)
 10. [Interactive Dashboard](#10-interactive-dashboard)
-11. [Project Architecture](#11-project-architecture)
-12. [Technical Structure of the Notebooks](#12-technical-structure-of-the-notebooks)
+11. [System Architecture](#11-system-architecture)
+12. [Technical Notebook Structure](#12-technical-notebook-structure)
 13. [Consolidated Results](#13-consolidated-results)
 14. [Limitations and Methodological Considerations](#14-limitations-and-methodological-considerations)
-15. [Execution Guide](#15-execution-guide)
-16. [File Structure](#16-file-structure)
-17. [Dependencies](#17-dependencies)
-18. [Conclusions and Next Steps](#18-conclusions-and-next-steps)
-19. [References](#19-references)
-
-
+15. [Technology Stack](#15-technology-stack)
+16. [Local Execution Guide](#16-local-execution-guide)
+17. [Groq API Configuration](#17-groq-api-configuration)
+18. [Production Deployment](#18-production-deployment)
+19. [API Infrastructure and Publishing on Render](#19-api-infrastructure-and-publishing-on-render)
+20. [File Structure](#20-file-structure)
+21. [Dependencies](#21-dependencies)
+22. [Conclusions and Next Steps](#22-conclusions-and-next-steps)
+23. [References](#23-references)
 
 <br><br>
 
