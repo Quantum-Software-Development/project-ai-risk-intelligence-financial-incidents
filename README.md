@@ -81,13 +81,32 @@
 [**School:**]() FACEI – Faculty of Interdisciplinary Studies  
 [**Course:**]() AI Security, Cybersecurity & Social Engineering  
 [**Professor:**]() [✨ Eduardo Savino Gomes]()  
-[**Authors**:**  [Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) e [Perdro Vyctor Almeida]()  <br>
+[**Authors:**]()[Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) e [Perdro Vyctor Almeida]()  <br>
 [**Context:**]() This project analyzes real-world AI incidents in banking, financial services and fintech through the lenses of AI security, cybersecurity, social engineering, governance and regulatory compliance.
 
-
-
-<br><br><br><br>
+<br><br>
 <!-- ========= END Institucional INFO ========= -->
+
+
+
+<!-- ========= START SPONSOR BADGES ========= -->
+
+#### <p align="center"> [![Sponsor FabianaCampanari](https://img.shields.io/badge/Sponsor-%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%20FabianaCampanari%20%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7%C2%B7-brightgreen?logo=GitHub)](https://github.com/sponsors/FabianaCampanari)
+
+<br><br>
+<!-- ========= END SPONSOR BADGES ========= -->
+
+
+<!-- ========= START DEMO VIDEO ========= -->
+
+https://github.com/user-attachments/assets/5d3c33b0-166e-414c-a561-8e8dd509be3d
+
+🖤 Creative Direction, Music Curation & Editing  by Fab⚡️ <br>
+🎶 Soundtrack: "Canon in D" — Johann Pachelbel
+
+<br><br><br>
+<!-- ========= END DEMO VIDEO ========= -->
+
 
 <!-- ========= START BADGES ========= -->
 
@@ -100,22 +119,36 @@
   <img src="https://img.shields.io/badge/Render-Cloud%20Deploy-22c7b8?logo=render&logoColor=white" />
 </p>
 
+<br><br><br>
+<!-- ========= END  BADGES ========= -->
+
+
+<!-- ========= START INTRO ========= -->
+## [Overview]()
+
+This project consolidates an end-to-end perspective on AI incidents in financial services, connecting public data from the AI Incident Database (AIID) to a complete pipeline of analysis, modeling, and exposure through API and dashboard.
+
+From an executive perspective, the work demonstrates how dispersed incidents can be transformed into structured risk indicators, with a focus on [**algorithmic bias**](), [**operational risk**](), and [**governance responses**](). The main contribution lies in the **integrated analytical architecture**: from data acquisition to the availability of RESTful endpoints and a visualization layer.
+
+The system answers questions such as:
+
+[-]() Which types of AI applications generate the most incidents in the financial sector?
+[-]() Does algorithmic bias affect customer segments unequally?
+[-]() Is it possible to predict the severity of an incident before a regulatory investigation?
+
 <br><br>
 
-
-<br><br>
-<!-- ========= END START BADGES ========= -->
-
-The project is aligned with the course because it examines AI not only as a computational tool, but as a socio-technical risk layer embedded in highly regulated financial systems. In this context, failures in AI-driven applications such as credit scoring, fraud detection, trading systems and automated decision-making may generate algorithmic bias, operational disruption, regulatory exposure and harm to customers.
-
-Its connection with [**AI Security**]() lies in the need to monitor, evaluate and govern AI systems as critical assets. Its connection with **Cybersecurity** emerges from the broader perspective of resilience, data protection, operational control and incident response in adversarial financial environments. Its relationship with [**Social Engineering**]() appears in the ways AI can intensify manipulation, impersonation and trust-related risks in digital finance. Together, these dimensions justify the project’s focus on governance and regulatory compliance as central mechanisms for reducing AI-related risk.
-
+> [!IMPORTANT]
+>
+> [**Correct positioning**:]() predictive models should be treated as a **methodological proof of concept**. The main deliverable is the integrated analytical architecture — not a high-accuracy classifier ready for production. <br>
 
 <br><br>
 
 #
 
 <br><br>
+<!-- ========= END INTRO ========= -->
+
 
 <!-- ========= START Confidentiality statement ========= -->
 
