@@ -133,8 +133,8 @@ Do ponto de vista executivo, o trabalho mostra como incidentes dispersos podem s
 
 O sistema responde a perguntas como:
 
-[-]() Quais tipos de aplicação de IA geram mais incidentes no setor financeiro?
-[-]() Viés algorítmico afeta segmentos de clientes de forma desigual?
+[-]() Quais tipos de aplicação de IA geram mais incidentes no setor financeiro? <br>
+[-]() Viés algorítmico afeta segmentos de clientes de forma desigual? <br>
 [-]() É possível prever a severidade de um incidente antes de uma investigação regulatória?
 
 
