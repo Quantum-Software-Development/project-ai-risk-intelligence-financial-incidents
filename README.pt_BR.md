@@ -80,8 +80,8 @@
 [**Institution:**]() Pontifical Catholic University of São Paulo (PUC‑SP – Humanistic AI & Data Science • 5º Semester • 2026)  
 [**School:**]() FACEI – Faculty of Interdisciplinary Studies  
 [**Course:**]() AI Security, Cybersecurity & Social Engineering  
-[**Professor:**]() [✨ Eduardo Savino Gomes]()  
-[**Authors:**]()[Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) e [Perdro Vyctor Almeida]()  <br>
+**Professor:** [✨ Eduardo Savino Gomes]()  
+**Authors:**[Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) e [Perdro Vyctor Almeida]()  <br>
 [**Context:**]() Este projeto analisa incidentes reais de Inteligência Artificial em bancos, serviços financeiros e fintechs sob as perspectivas de segurança em IA, cibersegurança, engenharia social, governança e conformidade regulatória. 
 
 <br><br>
