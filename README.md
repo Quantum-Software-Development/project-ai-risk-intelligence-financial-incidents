@@ -81,7 +81,7 @@
 [**School:**]() FACEI – Faculty of Interdisciplinary Studies  
 [**Course:**]() AI Security, Cybersecurity & Social Engineering  
 [**Professor:**]() [✨ Eduardo Savino Gomes]()  
-[**Authors**:**  [Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) e [Perdro Vyctor Almeida]()  <br>
+[**Authors:**]()[Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) e [Perdro Vyctor Almeida]()  <br>
 [**Context:**]() This project analyzes real-world AI incidents in banking, financial services and fintech through the lenses of AI security, cybersecurity, social engineering, governance and regulatory compliance.
 
 
