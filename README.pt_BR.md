@@ -23,48 +23,17 @@
 <br><br>
 <!-- ========= END REPO TITLE ========= -->
 
-
-<!-- ========= Start Dashboard Streamlit ========= -->
-
-
-<p align="center">
-  <a href="https://ai-incidents-financial-services.streamlit.app/" target="_blank" rel="noopener noreferrer">
+  <a href="https://docs.google.com/presentation/d/1CeNA6D3Va2X8nc0dVeD1BKxV97d1SI-v/edit?slide=id.p1#slide=id.p1">
     <img 
-      src="https://img.shields.io/badge/AI_Incident_Risk_Dashboard_Banking_&_Financial_Services-Streamlit-0f172a?style=for-the-badge&logo=streamlit&logoColor=white" 
-      alt="AI Incident Risk Dashboard – Banking & Financial Services"
-      style="height: 32px; width: auto;"
-    />
-  </a>
-</p>
-
-
-<!-- ========= END DashBoar Streamlit -->
-
-
-<p align="center">
-  <a href="https://celebrated-faun-c3f0a2.netlify.app/">
-    <img 
-      src="https://img.shields.io/badge/View_Presentation-Slides-14b8a6?style=for-the-badge&logo=googleslides&logoColor=white" 
-      alt="Frontend React DOM"
+      src="https://img.shields.io/badge/PPTX-Strategic%20Presentation-0f766e?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white" 
+      alt="PPTX Strategic Presentation"
       style="height: 30px; width: auto;"
     />
   </a>
-
-
-
-  <a href="https://docs.google.com/presentation/d/1wuR9X_ZuLUC2U2qtaqYrDIb157EfPLxe/edit?usp=sharing&ouid=116111056943857458728&rtpof=true&sd=true">
-    <img 
-      src="https://img.shields.io/badge/View_PowerPoint-Deck-06b6d4?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white" 
-      alt="View PowerPoint"
-      style="height: 30px; width: auto;"
-    />
-  </a>
-</p>
 <!-- ========= END PPTX -->
 
 <br><br><br><br>
-
-<!-- ========= END BADGEO ========= -->
+<!-- ========= END BADGE  ========= -->
 
 
 
