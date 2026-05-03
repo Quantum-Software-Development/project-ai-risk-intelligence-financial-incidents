@@ -36,7 +36,7 @@
 <!-- ========= END Dashboard Streamlit -->
 
 <p align="center">
-  <a href="https://stellar-fenglisu-9274fc.netlify.app/">
+  <a href="https://symphonious-sherbet-0cbe05.netlify.app/">
     <img 
       src="https://img.shields.io/badge/React-Interactive%20Slides-115e59?style=for-the-badge&logo=react&logoColor=white" 
       alt="React Interactive Slides"
@@ -44,7 +44,7 @@
     />
   </a>
 
-  <a href="https://docs.google.com/presentation/d/1CeNA6D3Va2X8nc0dVeD1BKxV97d1SI-v/edit?slide=id.p1#slide=id.p1">
+  <a href="https://docs.google.com/presentation/d/1BVQKF-1sYxSaoBiAuCJXMrjbXbYMqoqp/edit?usp=sharing&ouid=102317517900075068974&rtpof=true&sd=true">
     <img 
       src="https://img.shields.io/badge/PPTX-Strategic%20Presentation-0f766e?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white" 
       alt="PPTX Strategic Presentation"
