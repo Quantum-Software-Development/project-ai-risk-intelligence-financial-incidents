@@ -278,10 +278,10 @@ To evaluate, based on structured data from AI incidents in the financial sector,
 
 <br>
 
-[1.]() Identify AI incidents related to financial services.
+[1.]() Identify AI incidents related to financial services.  <br>
 [2.]() Structure and enrich the data with derived analytical variables.
-[3.]() Evaluate statistical hypotheses on concentration, bias, severity, and regulatory response.
-[4.]() Build predictive models for severity classification and regulatory investigation.
+[3.]() Evaluate statistical hypotheses on concentration, bias, severity, and regulatory response.   <br>
+[4.]() Build predictive models for severity classification and regulatory investigation. <br>
 [5.]() Organize results into an architecture composed of notebooks, relational database, RESTful API, and dashboard.
 
 <br><br>
