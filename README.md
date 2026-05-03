@@ -49,7 +49,7 @@
     />
   </a>
 
-  <a href="https://docs.google.com/presentation/d/1wuR9X_ZuLUC2U2qtaqYrDIb157EfPLxe/edit?usp=sharing&ouid=116111056943857458728&rtpof=true&sd=true">
+  <a href="https://docs.google.com/presentation/d/1CeNA6D3Va2X8nc0dVeD1BKxV97d1SI-v/edit?slide=id.p1#slide=id.p1">
     <img 
       src="https://img.shields.io/badge/PPTX-Presentation%20Deck-06b6d4?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white" 
       alt="PPTX Presentation Deck"
