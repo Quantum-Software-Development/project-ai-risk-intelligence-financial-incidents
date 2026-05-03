@@ -189,9 +189,6 @@ O sistema responde a perguntas como:
 <!-- ======================================= END DEFAULT HEADER ⚡️ ===========================================  -->
 
 
-<br><br>
-
-
 ## Table of Contents
 
 
