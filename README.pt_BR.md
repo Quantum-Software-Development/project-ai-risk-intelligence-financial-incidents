@@ -43,7 +43,7 @@
     />
   </a>
 
-  <a href="https://docs.google.com/presentation/d/1CeNA6D3Va2X8nc0dVeD1BKxV97d1SI-v/edit?slide=id.p1#slide=id.p1" target="_blank" rel="noopener noreferrer">
+  <a href="https://docs.google.com/presentation/d/1BVQKF-1sYxSaoBiAuCJXMrjbXbYMqoqp/edit?slide=id.p1#slide=id.p1" target="_blank" rel="noopener noreferrer">
     <img 
       src="https://img.shields.io/badge/PPTX-Strategic%20Presentation-0f766e?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white" 
       alt="PPTX Strategic Presentation"
