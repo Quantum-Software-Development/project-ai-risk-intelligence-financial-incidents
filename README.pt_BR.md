@@ -35,7 +35,7 @@
 <!-- ========= END Dashboard Streamlit -->
 
 <p align="center">
-  <a href="https://stellar-fenglisu-9274fc.netlify.app/" target="_blank" rel="noopener noreferrer">
+  <a href="https://symphonious-sherbet-0cbe05.netlify.app/" target="_blank" rel="noopener noreferrer">
     <img 
       src="https://img.shields.io/badge/React-Interactive%20Slides-14532d?style=for-the-badge&logo=react&logoColor=white" 
       alt="React Interactive Slides"
