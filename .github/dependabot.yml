@@ -14,7 +14,7 @@ updates:
 
   # Configuração para dependências de JavaScript (package.json)  
   - package-ecosystem: "npm"  
-    directory: "/"  # Diretório onde está o package.json  å
+    directory: "/"  # Diretório onde está o package.json
     schedule:  
       interval: "weekly"  # Verificações semanais  
     commit-message:  
